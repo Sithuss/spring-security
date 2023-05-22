@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html th:replace="layout/masterLayout :: layout(~{::main})" lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<main role="main">
+  <div class="container my-5">
+    <div class="my-3">
+      <a href="" th:href="@{'/sign-up?lang=us'}">Us</a> |
+      <a href="" th:href="@{'/sign-up?lang=ja'}">Japan</a> |
+      <a href="" th:href="@{'/sign-up?lang=fr'}">French</a> |
+      <a href="" th:href="@{'/sign-up?lang=de'}">German</a> |
+      <a href="" th:href="@{'/sign-up?lang=my'}">Myanmar</a> |
+    </div>
+    <form action="" th:action="@{/register}" th:object="${user}" method="post">
+      <div class="form-group">
+        <label for="name" th:text="#{user.name}"></label>
+        <input type="text" class="form-control" th:field="*{username}" id="name" th:classappend="${#fields.hasErrors('username')} ? 'is-invalid'">
+        <small th:if="${#fields.hasErrors('username')}" class="invalid-feedback" th:errors="*{username}"></small>
+      </div>
+      <div class="form-group">
+        <label for="pass" th:text="#{user.pass}"></label>
+        <input type="text" class="form-control" th:field="*{password}" id="pass" th:classappend="${#fields.hasErrors('password')} ? 'is-invalid'">
+        <small th:if="${#fields.hasErrors('password')}" class="is-invalid" th:errors="*{password}"></small>
+      </div>
+      <div class="form-group">
+      <label for="repeat">Repeated Password</label>
+      <input type="text" class="form-control" th:field="*{repeatedPassword}" id="repeat">
+  </div>
+      <div class="form-group">
+        <label for="mail">Email</label>
+        <input type="text" class="form-control" th:field="*{email}" id="mail">
+      </div>
+      <input type="submit" class="btn btn-primary">
+    </form>
+  </div>
+</main>
+</body>
+</html>

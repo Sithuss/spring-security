@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html th:replace="layout/masterLayout :: layout(~{::main})" xmlns:th="http://www.thymeleaf.org" lang="en">
+<body>
+<main role="main">
+<div class="container my-5">
+  <div class="justify-content-center align-items-center"
+  style="min-width: 400px">
+    <h3 class="text-center">Login Page</h3>
+    <div th:if="${loginError}" class="alert alert-danger">
+      <p>Invalid username and password</p>
+    </div>
+
+    <form action="" th:action="@{/login}" method="post">
+      <div class="form-group">
+        <input type="text" class="form-control" name="username" placeholder="username">
+      </div>
+      <div class="form-group">
+        <input type="text" name="password" class="form-control" placeholder="Password">
+      </div>
+      <input type="submit" class="btn- btn-primary btn-block" value="Login">
+    </form>
+
+  </div>
+</div>
+</main>
+</body>
+</html>

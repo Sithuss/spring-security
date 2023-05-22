@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/filter-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/authorize-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/thymeleaf-csrf/pom.xml" />
+        <option value="$PROJECT_DIR$/user-details-1/pom.xml" />
+        <option value="$PROJECT_DIR$/security-demo-1/pom.xml" />
+        <option value="$PROJECT_DIR$/csrf-filter-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa-signin-signup/pom.xml" />
+        <option value="$PROJECT_DIR$/custom-auth-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/security-context-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/custom-spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/custom-auth-provider-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc-user-details-manager-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

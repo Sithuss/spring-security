@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html th:replace="layout/masterLayout :: layout(~{::main})" lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<main role="main">
+  <div class="container my-5">
+    <div class="list-group" th:each="fruit : ${fruits}">
+      <div class="list-group-item" th:text="${fruit}"></div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

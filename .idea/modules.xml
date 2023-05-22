@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authorize-demo/authorize-demo.iml" filepath="$PROJECT_DIR$/authorize-demo/authorize-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csrf-filter-demo/csrf-filter-demo.iml" filepath="$PROJECT_DIR$/csrf-filter-demo/csrf-filter-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-auth-provider/custom-auth-provider.iml" filepath="$PROJECT_DIR$/custom-auth-provider/custom-auth-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-auth-provider-demo/custom-auth-provider-demo.iml" filepath="$PROJECT_DIR$/custom-auth-provider-demo/custom-auth-provider-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-spring-security/custom-spring-security.iml" filepath="$PROJECT_DIR$/custom-spring-security/custom-spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filter-demo/filter-demo.iml" filepath="$PROJECT_DIR$/filter-demo/filter-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-user-details-manager-demo/jdbc-user-details-manager-demo.iml" filepath="$PROJECT_DIR$/jdbc-user-details-manager-demo/jdbc-user-details-manager-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-signin-signup/jpa-signin-signup.iml" filepath="$PROJECT_DIR$/jpa-signin-signup/jpa-signin-signup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-context-demo/security-context-demo.iml" filepath="$PROJECT_DIR$/security-context-demo/security-context-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-demo-1/security-demo-1.iml" filepath="$PROJECT_DIR$/security-demo-1/security-demo-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-security.iml" filepath="$PROJECT_DIR$/.idea/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleaf-csrf/thymeleaf-csrf.iml" filepath="$PROJECT_DIR$/thymeleaf-csrf/thymeleaf-csrf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-details-1/user-details-1.iml" filepath="$PROJECT_DIR$/user-details-1/user-details-1.iml" />
+    </modules>
+  </component>
+</project>
